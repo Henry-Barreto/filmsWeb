@@ -1,0 +1,519 @@
+@font-face {
+    font-family: 'cinema';
+    src: url('cinema_st.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.all{padding: auto;}
+h1{font-family: 'cinema';
+   font-size: 3em;
+   text-align: center;
+  color: white;}
+
+  a{color: black;}
+
+body{font-family: Arial, Helvetica, sans-serif;background-color: midnightblue;}
+
+.menu{ background-color: aliceblue;
+       border-radius: 45px;
+       text-align: center;
+       width: 100%;}
+
+      /*efeitos do menu intertivo abaixo*/
+
+.tdfilmes:hover{border: solid 5px #3498DB;
+          border-radius: 50px;
+          transition: 0.2s;}
+.tdcinemas:hover{border: solid 5px #3498DB;
+        border-radius: 50px;
+        transition: 0.2s;}
+.tdcontato:hover{border: solid 5px #3498DB;
+        border-radius: 50px;
+        transition: 0.2s;}
+
+.h1filmes{text-align: left;
+          margin-top: 25px;}
+
+.generos{text-align: center;
+         width: 100%;
+         margin-top: 35px;}
+
+         /*Generos a baixo*/
+
+.tdaction{padding: auto;;
+	      text-decoration-color: aliceblue;
+          text-decoration: underline;}
+.tdromance{text-decoration-color: aliceblue;
+           text-decoration: underline;}
+.tdcomedia{text-decoration-color: aliceblue;
+            text-decoration: underline;}
+.tdterror{text-decoration-color: aliceblue;
+          text-decoration: underline;}
+
+        /* edição da fonte da lista dos filmes */
+
+
+
+/* Classes dropdown button */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* Dropdown Button */
+.dropbtn2 {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      /* Dropdown button on hover & focus */
+      .dropbtn2:hover, .dropbtn2:focus {
+        background-color: #2980B9;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown2 {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content2 a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content2 a:hover {background-color: #ddd;}
+      
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show2 {display:block;}
+      
+      
+      /* effects for the slider button */
+
+      * { margin: 0; padding: 0; }
+      
+      .table-slider{text-align: center;
+                    width: 100%;}
+      .slider-Div{margin-top: 200px;}
+      
+      .slider {
+        display: block;
+        height: 293px;
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .slider-2 {
+      display: block;
+      height: 293px;
+      width: 400px;
+      margin: auto;
+      margin-top: 20px;
+      position: relative;
+  }
+
+  .slider-3 {
+    display: block;
+    height: 293px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider-4 {
+  display: block;
+  height: 293px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+    
+    .slider li {
+        list-style: none;
+        position: absolute;
+    }
+    .slider-2 li {
+      list-style: none;
+      position: absolute;
+  }
+
+  .slider-3 li {
+    list-style: none;
+    position: absolute;
+  }
+
+  .slider-4 li {
+    list-style: none;
+    position: absolute;
+  }
+    
+    .slider a img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 5px;
+      
+    }
+    
+    .slider-2 a img {
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      vertical-align: top;
+      border-radius: 5px;
+  
+    }
+
+    .slider-3 a img {
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      vertical-align: top;
+      border-radius: 5px;
+  
+    }
+
+    .slider-4 a img {
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      vertical-align: top;
+      border-radius: 5px;
+  
+    }
+    
+    .slider input{ display: none; }
+    .slider-2 input{ display: none;}
+    .slider-3 input{display: none;}
+    .slider-4 input{display: none;}
+
+
+    .slider label {
+      
+      border-radius: 5px;
+      border: #3498DB;
+      background-color: #3498DB;
+      bottom: 10px;
+      cursor: pointer;
+      display: block;
+      height: 10px;
+      position: absolute;
+      width: 10px;
+      z-index: 10;
+    }
+
+    .slider-2 label {
+      
+      border-radius: 5px;
+      border: #3498DB;
+      background-color: #3498DB;
+      bottom: 10px;
+      cursor: pointer;
+      display: block;
+      height: 10px;
+      position: absolute;
+      width: 10px;
+      z-index: 10;
+      
+  }
+
+  .slider-3 label {
+      
+    border-radius: 5px;
+    border: #3498DB;
+    background-color: #3498DB;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    
+}
+
+
+.slider-4 label {
+      
+  border-radius: 5px;
+  border: #3498DB;
+  background-color: #3498DB;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+  
+}
+
+  
+  .slider li:nth-child(1) label {
+      left:0%;
+  }
+  
+  .slider li:nth-child(2) label {
+      left:11%;
+  }
+  
+  .slider li:nth-child(3) label {
+      left:22%;
+  }
+  .slider li:nth-child(4) label {
+    left: 33%;
+}
+
+.slider li:nth-child(5) label {
+  left: 44%;
+}
+
+.slider li:nth-child(6) label {
+  left: 55%;
+}
+
+.slider li:nth-child(7) label {
+  left: 66%;
+}
+
+.slider li:nth-child(8) label {
+  left: 77%;
+}
+
+.slider li:nth-child(9) label {
+  left: 88%;
+}
+
+.slider li:nth-child(10) label {
+  left: 97%;
+}
+
+
+
+.slider-2 li:nth-child(1) label {
+  left:0%;
+}
+
+.slider-2 li:nth-child(2) label {
+  left:11%;
+}
+
+.slider-2 li:nth-child(3) label {
+  left:22%;
+}
+.slider-2 li:nth-child(4) label {
+left: 33%;
+}
+
+.slider-2 li:nth-child(5) label {
+left: 44%;
+}
+
+.slider-2 li:nth-child(6) label {
+left: 55%;
+}
+
+.slider-2 li:nth-child(7) label {
+left: 66%;
+}
+
+.slider-2 li:nth-child(8) label {
+left: 77%;
+}
+
+.slider-2 li:nth-child(9) label {
+left: 88%;
+}
+
+.slider-2 li:nth-child(10) label {
+left: 97%;
+}
+
+
+
+.slider-3 li:nth-child(1) label {
+  left:0%;
+}
+
+.slider-3 li:nth-child(2) label {
+  left:11%;
+}
+
+.slider-3 li:nth-child(3) label {
+  left:22%;
+}
+.slider-3 li:nth-child(4) label {
+left: 33%;
+}
+
+.slider-3 li:nth-child(5) label {
+left: 44%;
+}
+
+.slider-3 li:nth-child(6) label {
+left: 55%;
+}
+
+.slider-3 li:nth-child(7) label {
+left: 66%;
+}
+
+.slider-3 li:nth-child(8) label {
+left: 77%;
+}
+
+.slider-3 li:nth-child(9) label {
+left: 88%;
+}
+
+.slider-3 li:nth-child(10) label {
+left: 97%;
+}
+
+
+.slider-4 li:nth-child(1) label {
+  left:0%;
+}
+
+.slider-4 li:nth-child(2) label {
+  left:11%;
+}
+
+.slider-4 li:nth-child(3) label {
+  left:22%;
+}
+.slider-4 li:nth-child(4) label {
+left: 33%;
+}
+
+.slider-4 li:nth-child(5) label {
+left: 44%;
+}
+
+.slider-4 li:nth-child(6) label {
+left: 55%;
+}
+
+.slider-4 li:nth-child(7) label {
+left: 66%;
+}
+
+.slider-4 li:nth-child(8) label {
+left: 77%;
+}
+
+.slider-4 li:nth-child(9) label {
+left: 88%;
+}
+
+.slider-4 li:nth-child(10) label {
+left: 97%;
+}
+
+
+.slider a img {
+    opacity: 0;
+  
+}
+.slider-2 a img {
+  opacity: 0;
+  visibility: hidden;
+}
+.slider-3 a img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider-4 a img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.slider li input:checked ~ a img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.slider-2 li input:checked ~ a img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+.slider-3 li input:checked ~ a img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+.slider-4 li input:checked ~ a img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}

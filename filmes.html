@@ -1,0 +1,513 @@
+<html>
+ <head>
+  
+    <title>Wiki Movie</title>
+	<link rel="stylesheet" href="filmes.css">
+	<script src="filmes.js"></script>
+    
+</head>
+ <body>
+ <div class="all">
+    <h1>Wiki Movie</h1>
+    
+    <!--ABAIXO, TABELA PARA MENU INTERATIVO-->
+
+    <div>
+  <table class="menu">
+    <tr>
+        <a href="#secao1"><td class="tdfilmes">FILMES</td></a>
+        <td class="tdcinemas">CINEMAS</td>
+        <td class="tdcontato">CONTATO</td>
+    </tr>
+  </table>
+    </div>
+    <!--ABAIXO, TÍTULO DE PARTE DA PAGINA E LISTA DE 10 FILMES PARA CADA GÊNERO-->
+
+<h1 class="h1filmes" id="secao1"><u>Filmes</u></h1>
+<table class="generos">
+  <tr>
+      <td class="tdaction">
+	  
+		<div class="dropdown menuaction">
+			<button onclick="openActions()" class="dropbtn">AÇÃO</button>
+			<div id="actionsDiv" class="dropdown-content">
+				<a href="https://www.adorocinema.com/filmes/filme-115362/" target="_blank">BATMAN TRILOGY</a>
+				<a href="https://www.adorocinema.com/filmes/filme-24944/" target="_blank">GLADIADOR</a>
+				<a href="https://www.adorocinema.com/filmes/filme-60208/" target="_blank">BASTARDOS INGLÓRIOS</a>
+				<a href="https://www.adorocinema.com/filmes/filme-225116/" target="_blank">LOGAN</a></li>
+				<a href="https://www.adorocinema.com/filmes/filme-186636/" target="_blank">TOP GUN:MAVERICK</a>
+				<a href="https://www.adorocinema.com/filmes/filme-132039/" target="_blank">MISSÃO IMPOSSÍVEL</a>
+				<a href="https://www.adorocinema.com/filmes/filme-143692/" target="_blank">A ORIGEM</a>
+				<a href="https://www.adorocinema.com/filmes/filme-13892/" target="_blank">SEVEN</a></li>
+				<a href="https://www.adorocinema.com/filmes/filme-21189/" target="_blank">CLUBE DA LUTA</a>
+				<a href="https://www.adorocinema.com/filmes/filme-55983/" target="_blank">OS INFILTRADOS</a>
+			</div>
+		</div>
+
+<!-- <div id="menu1" class="menuaction" data-open="false" > -->
+<!-- <span id="menu-trigger1" class="menutrigger"> -->
+<!-- <i fa fa-plus>AÇÃO</i> -->
+<!-- <i fa fa-minus></i> -->
+<!-- </span> -->
+<!-- <ul class="menu-itens1"> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-115362/">BATMAN TRILOGY</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-24944/">GLADIADOR</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-60208/">BASTARDOS INGLÓRIOS</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-225116/">LOGAN</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-186636/">TOP GUN:MAVERICK</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-132039/">ILHA DO MEDO</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-143692/">A ORIGEM</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-13892/">SEVEN</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-21189/">CLUBE DA LUTA</a></li> -->
+  <!-- <li><a href="https://www.adorocinema.com/filmes/filme-55983/">OS INFILTRADOS</a></li> -->
+<!-- </ul> -->
+
+<!-- </div> -->
+
+      </td>
+
+    <td class="tdromance">
+
+        <div class="dropdown menuaction">
+          <button onclick="openRomance()" class="dropbtn">ROMANCE</button>
+          <div id="romanceDiv" class="dropdown-content">
+            <a href="" target="_blank"></a>
+            <a href="https://www.adorocinema.com/filmes/filme-12076/" target="_blank">LENDAS DA PAIXÃO</a>
+            <a href="https://www.adorocinema.com/filmes/filme-6200/" target="_blank">UMA LINDA MULHER</a>
+            <a href="https://www.adorocinema.com/filmes/filme-47422" target="_blank">DIÁRIO DE UMA PAIXÃO</a></li>
+            <a href="https://www.adorocinema.com/filmes/filme-49077" target="_blank">COMO SE FOSSE A PRIMEIRA VEZ</a>
+            <a href="https://www.adorocinema.com/filmes/filme-16774" target="_blank">ENCONTRO MARCADO</a>
+            <a href="https://www.adorocinema.com/filmes/filme-6122/" target="_blank">GHOST</a>
+            <a href="https://www.adorocinema.com/filmes/filme-20287" target="_blank">UM LUGAR CHAMADO NOTTING HILL</a></li>
+            <a href="https://www.adorocinema.com/filmes/filme-38493" target="_blank">ANTES DO AMÃNHECER</a>
+            <a href="https://www.adorocinema.com/filmes/filme-17811/"target="_blank">CIDADE DOS ANJOS</a>
+          </div>
+        </div>
+      </td>
+      <td class="tdcomedia">
+
+        <div class="dropdown menuaction">
+          <button onclick="openComedy()" class="dropbtn">COMÉDIA</button>
+          <div id="comedyDiv" class="dropdown-content">
+            <a href="https://www.adorocinema.com/filmes/filme-18671/" target="_blank">O SHOW DE TRAUMAN</a>
+            <a href="https://www.adorocinema.com/filmes/filme-25449/" target="_blank">10 COISAS QUE ODEIO EM VOCÊ</a>
+            <a href="https://www.adorocinema.com/filmes/filme-14471/" target="_blank">AS PATRICINHAS DE BERVELY HILLS</a>
+            <a href="https://www.adorocinema.com/filmes/filme-54456/" target="_blank">AS BRANQUELAS</a>
+            <a href="https://www.adorocinema.com/filmes/filme-111293" target="_blank">AS APIMENTADAS</a>
+            <a href="https://www.adorocinema.com/filmes/filme-176518/" target="_blank">UM FAZ DE CONTA QUE ACONTECE</a>
+            <a href="https://www.adorocinema.com/filmes/filme-46340/" target="_blank">DE REPENTE 30</a>
+            <a href="https://www.adorocinema.com/filmes/filme-219076/" target="_blank">JUNTOS E MISTURADOS</a>
+            <a href="https://www.adorocinema.com/filmes/filme-47179/" target="_blank">CLICK</a>
+            <a href="https://www.adorocinema.com/filmes/filme-130528/" target="_blank">REBELDE COM CAUSA</a>
+            
+          </div>
+        </div>
+
+      </td>
+      <td class="tdterror">
+
+        <td class="tdterror">
+          <div class="dropdown menuaction">
+            <button onclick="openTerror()" class="dropbtn">TERROR</button>
+            <div id="terrorDiv" class="dropdown-content">
+              <a href="https://www.adorocinema.com/filmes/filme-261860/" target="_blank">HEREDITÁRIO</a>
+              <a href="https://www.adorocinema.com/filmes/filme-200962/" target="_blank">A ENTIDADE</a>
+              <a href="https://www.adorocinema.com/filmes/filme-264668/" target="_blank">MIDSOMMAR</a>
+              <a href="https://www.adorocinema.com/filmes/filme-863/" target="_blank">O ILUMINADO</a>
+              <a href="https://www.adorocinema.com/filmes/filme-57689/" target="_blank">O LABIRINTO DO FAUNO</a>
+              <a href="https://www.adorocinema.com/filmes/filme-203607/" target="_blank">INVOCAÇÃO DO MAL</a>
+              <a href="https://www.adorocinema.com/filmes/filme-232740/" target="_blank">O HOMEN NAS TREVAS</a>
+              <a href="https://www.adorocinema.com/filmes/filme-132783/" target="_blank">A ÓRFÃ</a>
+              <a href="https://www.adorocinema.com/filmes/filme-59130/" target="_blank">O EXORCISMO DE EMILLY ROSE</a>
+              <a href="https://www.adorocinema.com/filmes/filme-254612/" target="_blank">UM LUGAR SILENCIOSO</a>
+            </div>
+          </div>
+
+      </td>
+  </tr>
+</table>
+<hr>
+
+
+<!--this part is for the fiist slide button-->
+<div class="slider-Div">
+
+<table class="table-slider">
+  <tr>
+    <td class="slider-action">
+
+      <ul class="slider">
+        <li>
+            <input type="radio" id="slide1" name="slide" checked>
+            <label for="slide1"></label>
+            <a href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank">
+                <img src="batman.jpg" alt="batman" />
+            </a>    
+        </li>
+    
+        <li>
+            <input type="radio" id="slide2" name="slide">
+            <label for="slide2"></label>
+            <a href="https://www.youtube.com/watch?v=P5ieIbInFpg" target="_blank">
+                <img src="gladiador.webp" alt="gladiador" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide3" name="slide">
+            <label for="slide3"></label>
+            <a href="https://www.youtube.com/watch?v=sE8hc4gVyGo" target="_blank">
+                <img src="bastardos.jpg" alt="bastardos" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide4" name="slide">
+            <label for="slide4"></label>
+            <a href="https://www.youtube.com/watch?v=KPND6SgkN7Q" target="_blank">
+                <img src="logan.jpg" alt="logan" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide5" name="slide">
+            <label for="slide5"></label>
+            <a href="https://www.youtube.com/watch?v=9Jgua93Xhcw" target="_blank">
+                <img src="topgun.webp" alt="topgun" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide6" name="slide">
+            <label for="slide6"></label>
+            <a href="https://www.youtube.com/watch?v=4zMmmmTHwGM" target="_blank">
+                <img src="missao.jpg" alt="missao" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide7" name="slide">
+            <label for="slide7"></label>
+            <a href="https://www.youtube.com/watch?v=YoHD9XEInc0" target="_blank">
+                <img src="aorigem.jpg" alt="aorigem" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide8" name="slide">
+            <label for="slide8"></label>
+            <a href="https://www.youtube.com/watch?v=znmZoVkCjpI" target="_blank">
+                <img src="seven.webp" alt="seven" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide9" name="slide">
+            <label for="slide9"></label>
+            <a href="https://www.youtube.com/watch?v=BdJKm16Co6M" target="_blank">
+                <img src="clubedaluta.jpg" alt="clubedaluta" />
+            </a>
+        </li>
+    
+        <li>
+            <input type="radio" id="slide10" name="slide">
+            <label for="slide10"></label>
+            <a href="https://www.youtube.com/watch?v=iojhqm0JTW4" target="_blank">
+                <img src="infiltrados.jpg" alt="infiltrados" />
+            </a>
+        </li>
+    </ul>
+  </td>
+
+  <!--slider button 2 ahead-->
+
+  <td class="slider-romance">
+
+    <ul class="slider-2">
+      <li>
+  
+        <input type="radio" id="slide2-1" name="slide-romance" checked>
+        <label for="slide2-1"></label>
+        <a href="https://www.youtube.com/watch?v=zEz3MWpDC7E" target="_blank">
+            <img src="lendas.webp" alt="lendas" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-2" name="slide-romance" checked >
+        <label for="slide2-2"></label>
+        <a href="https://www.youtube.com/watch?v=IH6_CA_ocqY" target="_blank">
+            <img src="titanic.webp" alt="titanic" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-3" name="slide-romance" checked >
+        <label for="slide2-3"></label>
+        <a href="https://www.youtube.com/watch?v=2EBAVoN8L_U" target="_blank">
+            <img src="linda.webp" alt="linda"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-4" name="slide-romance" checked >
+        <label for="slide2-4"></label>
+        <a href="https://www.youtube.com/watch?v=BjJcYdEOI0k" target="_blank">
+            <img src="diario.jpg" alt="diario" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-5" name="slide-romance" checked >
+        <label for="slide2-5"></label>
+        <a href="https://www.youtube.com/watch?v=_bN1VGD0v-8" target="_blank">
+            <img src="primeiravez.jpg" alt="primeiravez" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-6" name="slide-romance" checked >
+        <label for="slide2-6"></label>
+        <a href="https://www.youtube.com/watch?v=_zIOjl93WrU" target="_blank">
+            <img src="encontromarcado.webp" alt="encontromarcado" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-7" name="slide-romance" checked >
+        <label for="slide2-7"></label>
+        <a href="https://www.youtube.com/watch?v=8uubih798tg" target="_blank">
+            <img src="ghost.webp" alt="ghost"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-8" name="slide-romance" checked >
+        <label for="slide2-8"></label>
+        <a href="https://www.youtube.com/watch?v=4RI0QvaGoiI" target="_blank">
+            <img src="notting.webp"  alt="notting"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-9" name="slide-romance" checked >
+        <label for="slide2-9"></label>
+        <a href="https://www.youtube.com/watch?v=PgUx_HnDlKo" target="_blank">
+            <img src="amanhecer.webp" alt="amanhecer" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide2-10" name="slide-romance" checked >
+        <label for="slide2-10"></label>
+        <a href="https://www.youtube.com/watch?v=qckbKwcCy6I" target="_blank">
+            <img src="anjos.webp" alt="" />
+        </a>
+      </li>
+  </ul>
+
+  </td>
+  <td class="slider-comedy">
+
+    <!--slider 3 ahead-->
+
+    <ul class="slider-3">
+      <li>
+  
+        <input type="radio" id="slide3-1" name="slide-comedy" checked>
+        <label for="slide3-1"></label>
+        <a href="https://www.youtube.com/watch?v=dlnmQbPGuls" target="_blank">
+            <img src="truman.jpg" alt="truman" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-2" name="slide-comedy" checked >
+        <label for="slide3-2"></label>
+        <a href="https://www.youtube.com/watch?v=tD76OqlJRwQ" target="_blank">
+            <img src="10.webp" alt="10">
+        </a>
+      <li>
+  
+        <input type="radio" id="slide3-3" name="slide-comedy" checked >
+        <label for="slide3-3"></label>
+        <a href="https://www.youtube.com/watch?v=Mgjwq1ZzdPQ" target="_blank">
+            <img src="paty.jpg" alt="paty"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-4" name="slide-comedy" checked >
+        <label for="slide3-4"></label>
+        <a href="https://www.youtube.com/watch?v=aeVkbNka9HM" target="_blank">
+            <img src="branquelas.jpg" alt="branquelas"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-5" name="slide-comedy" checked >
+        <label for="slide3-5"></label>
+        <a href="https://www.youtube.com/watch?v=Pg0UYb8U2Dg" target="_blank">
+            <img src="pimentas.jpg" alt="pimentas"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-6" name="slide-comedy" checked >
+        <label for="slide3-6"></label>
+        <a href="https://www.youtube.com/watch?v=xQdXAhdsU6o" target="_blank">
+            <img src="fazdeconta.jpg" alt="fazdeconta"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-7" name="slide-comedy" checked >
+        <label for="slide3-7"></label>
+        <a href="https://www.youtube.com/watch?v=NV7PBRBcxu0" target="_blank">
+            <img src="30.webp" alt="30"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-8" name="slide-comedy" checked >
+        <label for="slide3-8"></label>
+        <a href="https://www.youtube.com/watch?v=ABgs61ZK5l0" target="_blank">
+            <img src="juntos.jpg" alt="juntos"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-9" name="slide-comedy" checked >
+        <label for="slide3-9"></label>
+        <a href="https://www.youtube.com/watch?v=3-VfwPpbNg4" target="_blank">
+            <img src="click.webp" alt="click"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide3-10" name="slide-comedy" checked >
+        <label for="slide3-10"></label>
+        <a href="https://www.youtube.com/watch?v=GQ7kHFXAVxg" target="_blank">
+            <img src="rebelde.webp"  alt="rebelde"/>
+        </a>
+      </li>
+  </ul>
+  </td>
+
+<!--slider 4 ahead-->
+
+  <td class="slider-terror">
+
+    <ul class="slider-4">
+      <li>
+  
+        <input type="radio" id="slide4-1" name="slide-terror" checked>
+        <label for="slide4-1"></label>
+        <a href="https://www.youtube.com/watch?v=Ui13PlmyZhQ" target="_blank">
+            <img src="hereditario.webp" alt="hereditario"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-2" name="slide-terror" checked >
+        <label for="slide4-2"></label>
+        <a href="https://www.youtube.com/watch?v=-Q_dwLGd2Rs" target="_blank">
+            <img src="entidade.jpg" alt="">
+        </a>
+      <li>
+  
+        <input type="radio" id="slide4-3" name="slide-terror" checked >
+        <label for="slide4-3"></label>
+        <a href="https://www.youtube.com/watch?v=1Vnghdsjmd0" target="_blank">
+            <img src="sommar.jpg" alt="sommar"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-4" name="slide-terror" checked >
+        <label for="slide4-4"></label>
+        <a href="https://www.youtube.com/watch?v=FZQvIJxG9Xs" target="_blank">
+            <img src="shinning.webp" alt="shinning" />
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-5" name="slide-terror" checked >
+        <label for="slide4-5"></label>
+        <a href="https://www.youtube.com/watch?v=jVZRnnVSQ8k" target="_blank">
+            <img src="fauno.jpg"  alt="fauno"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-6" name="slide-terror" checked >
+        <label for="slide4-6"></label>
+        <a href="https://www.youtube.com/watch?v=GQrrXceHn2E" target="_blank">
+            <img src="mal.jpg" alt="mal"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-7" name="slide-terror" checked >
+        <label for="slide4-7"></label>
+        <a href="https://www.youtube.com/watch?v=uKY0dYfOibI" target="_blank">
+            <img src="trevas.webp" alt="trevas"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-8" name="slide-terror" checked >
+        <label for="slide4-8"></label>
+        <a href="https://www.youtube.com/watch?v=nhziUAHlQf8" target="_blank">
+            <img src="orfa.webp"  alt="orfa"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-9" name="slide-terror" checked >
+        <label for="slide4-9"></label>
+        <a href="https://www.youtube.com/watch?v=qxYe9X24CdM" target="_blank">
+            <img src="emilly.webp" alt="emilly"/>
+        </a>
+      </li>
+  
+      <li>
+  
+        <input type="radio" id="slide4-10" name="slide-terror" checked >
+        <label for="slide4-10"></label>
+        <a href="https://www.youtube.com/watch?v=8W6iMmhVDgE" target="_blank">
+            <img src="silence.jpg" alt="silence"/>
+        </a>
+      </li>
+  </ul>
+  </td>
+  </tr>
+</table>
+</div>
+ </div>
+ </body>   
+</html>
